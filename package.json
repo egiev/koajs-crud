@@ -1,0 +1,26 @@
+{
+  "name": "koa-crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/nodemon/bin/nodemon.js app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^2.2.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-convert": "^1.2.0",
+    "koa-joi-router": "^5.1.0",
+    "koa-res": "^3.1.0",
+    "koa-router": "^7.4.0",
+    "mongodb": "^3.1.3",
+    "mongoose": "^5.2.12"
+  },
+  "devDependencies": {
+    "koa-logger": "^2.0.1",
+    "nodemon": "^1.18.3"
+  }
+}
